@@ -50,10 +50,13 @@ def merge_dicts(dict1, dict2):
     return merged
 
 # Class creation
-class car:
+class Car:
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
         self.year = year
     def display_info(self):
         print (f"Car Make: {self.make}, Car Model: {self.model}, Car Year: {self.year}")
+
+car1 = Car("Toyota", "Camry", 2023)
+car2 = Car("Honda", "Civic", 2020)
